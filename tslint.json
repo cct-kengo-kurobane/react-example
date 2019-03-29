@@ -1,0 +1,8 @@
+{
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "semicolon": [ true, "always" ],
+    "member-access": [true, "no-public"]
+  },
+  "extends": ["tslint:latest", "tslint-config-prettier"]
+}
